@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(xargs ls:*)",
+      "Bash(xargs cat:*)",
+      "Bash(ls:*)",
+      "Bash(MSYS_NO_PATHCONV=1 \"G:/dev/SDK/platform-tools/adb\" push:*)",
+      "Bash(MSYS_NO_PATHCONV=1 \"G:/dev/SDK/platform-tools/adb\" shell:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "WebFetch(domain:wiki.rpcs3.net)"
+    ]
+  }
+}

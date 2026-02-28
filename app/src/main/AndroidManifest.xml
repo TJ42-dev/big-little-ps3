@@ -43,7 +43,7 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:screenOrientation="sensorLandscape"
             android:launchMode="singleTask"
-            android:exported="false" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="rpcsx.intent.action.Emulator" />
                 <category android:name="android.intent.category.DEFAULT" />
